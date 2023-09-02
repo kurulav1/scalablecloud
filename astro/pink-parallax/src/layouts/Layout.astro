@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+  <title>{Astro.props.title}</title>
+</head>
+<body>
+  <h1>{Astro.props.title}</h1>
+  
+  <nav>
+    <ul>
+      <li><a href="/">Main page</a></li>
+      <li><a href="/about">About page</a></li>
+      <li><a href="/admin/">Admin page</a></li>
+    </ul>
+  </nav>
+  
+  <slot />
+</body>
+</html>
